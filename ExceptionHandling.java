@@ -16,21 +16,4 @@ public class ExceptionHandling {
 			System.out.println("PROGRAM IS TERMINATED");
 		}
 	}
-
-	public static void main(String[] args) {
-		
-		System.out.println("DIVISION GAME!");
-		
-		Scanner input = new Scanner(System.in);
-		
-		System.out.print("ENTER NUMBER 1: ");
-		int num1 = input.nextInt();
-		
-		System.out.print("ENTER NUMBER 2: ");
-		int num2 = input.nextInt();
-		
-		divisionGame(num1, num2);
-
-	}
-
 }
